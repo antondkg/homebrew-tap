@@ -1,9 +1,9 @@
 class McpImessage < Formula
   desc "Full iMessage MCP server with contacts support"
   homepage "https://github.com/antondkg/mcp-imessage"
-  url "https://github.com/antondkg/mcp-imessage/releases/download/v0.1.1/mcp-imessage-aarch64-apple-darwin.tar.gz"
-  sha256 "ab2a6b2ff1ad5ea89c8cba2ef745700b842e337d2795c29a6d9d94c538fbc0ed"
-  version "0.1.1"
+  url "https://github.com/antondkg/mcp-imessage/releases/download/v0.1.2/mcp-imessage-aarch64-apple-darwin.tar.gz"
+  sha256 "c19dc2d448faf515120f5a283a6f8b65fcff11f676a780a487e0dc00f76bb620"
+  version "0.1.2"
 
   def install
     bin.install "mcp-imessage"
